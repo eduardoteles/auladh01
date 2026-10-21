@@ -1,24 +1,32 @@
+html,body{
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+
+
 html, body{
  height: 100%;
  background-color: #f1f1f1;
 }
 
 .flex-container{
- margin-top: 20%;
- margin-bottom: 20%;
- display: flex;
- flex-direction: column;
- /*Alinha em relação ao conteudo*/
- justify-content: space-evenly;
- /*Alinha em relação ao eixo principal*/
+    margin-top: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+/*justify-content--> Alinha em relação ao conteudo*/
+ justify-content: center;
+/* align-items--> Alinha em relação à pagina*/
  align-items: center;
+text-align: center;
  width: 100%;
  height: 100%;
 }
 
 .flex-item{
- width: 150px;
- height: 50px;
+ width: 300px;
+ height: 150px;
  border-radius: 25%;
 }
 
@@ -33,7 +41,6 @@ html, body{
 .amarelo{
  background-color: yellow;
 }
-
 .blue{
  background-color: blue;
 }
